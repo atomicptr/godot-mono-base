@@ -1,7 +1,7 @@
 FROM mono:6.8
 
 # Godot build arguments
-ARG GODOT_VERSION="3.2.2"
+ARG GODOT_VERSION="3.2.3"
 ARG GODOT_RELEASE_TAG="stable"
 # set this if you want to use a non stable version like "rc1", "beta2", etc.
 ARG GODOT_RELEASE_SUBDIR=""
